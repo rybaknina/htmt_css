@@ -1,0 +1,161 @@
+body {
+    font-family: sans-serif;
+}
+
+.h2,
+.h3,
+.submit {
+    text-align: center;
+}
+
+.p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.h1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.h3 {
+    font-size: 36px;
+}
+
+.h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.submit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.main {
+    border: 4px solid darkred;
+}
+
+.inside {
+    border: 3px solid darkviolet;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu {
+    margin-top: 20px;
+    border: 3px solid green;
+}
+
+.news {
+    border: 3px solid cyan;
+    margin-top: 20px;
+    margin-right: 50%;
+    margin-bottom: 50px;
+}
+
+.goals {
+    border: 3px solid darkviolet;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.parts {
+    border: 3px solid green;
+    margin-bottom: 10px;
+}
+
+.part {
+    border: 3px solid purple;
+    margin-right: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project {
+    border: 3px solid darkred;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.info {
+    margin-top: 50px;
+    border: 4px solid darkred;
+    background-color: cadetblue;
+}
+
+.events {
+    border: 4px solid lightyellow;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.invite {
+    border: 3px solid lightpink;
+    margin-right: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.contacts {
+    border: 4px solid lightyellow;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.footer {
+    border: 3px solid plum;
+    margin-bottom: 30px;
+}
+
+.map {
+    border: 5px solid gray;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.contact-us {
+    border: 3px solid cyan;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.address, .message {
+    display: inline-block;
+    border: 5px solid navajowhite;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
