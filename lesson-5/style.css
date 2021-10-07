@@ -52,110 +52,124 @@ body {
     text-transform: uppercase;
 }
 
-.main {
-    border: 4px solid darkred;
+.tool-header {
+    width: 510px;
 }
 
-.inside {
-    border: 3px solid darkviolet;
-    margin-left: 40px;
-    margin-right: 40px;
+.tool-text {
+    width: 425px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container, .main, .project, .footer, .main-contacts {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main {
+    border: 4px solid darkred;
+    height: 570px;
+}
+
+.tool, .parts, .project, .alpha, .footer, .contact-us, .wrapper, .menu {
+    display: flex;
 }
 
 .menu {
+    height: 50px;
     margin-top: 20px;
     border: 3px solid green;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.news {
+.tool {
+    flex-direction: column;
     border: 3px solid cyan;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-right: 50%;
     margin-bottom: 50px;
 }
 
-.goals {
+.what-we-do {
     border: 3px solid darkviolet;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .parts {
     border: 3px solid green;
-    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.part, .project, .parts {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .part {
+    width: 359px;
     border: 3px solid purple;
-    margin-right: 75%;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .project {
     border: 3px solid darkred;
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.info {
-    margin-top: 50px;
-    border: 4px solid darkred;
-    background-color: cadetblue;
-}
-
-.events {
-    border: 4px solid lightyellow;
-    margin-left: 60px;
-    margin-right: 60px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .invite {
-    border: 3px solid lightpink;
-    margin-right: 75%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.divider {
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.contacts {
     border: 4px solid lightyellow;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 495px;
 }
 
 .footer {
-    border: 3px solid plum;
-    margin-bottom: 30px;
+    border: 4px solid darkred;
+    justify-content: left;
+}
+
+.header-footer {
+    width: 340px;
+    text-align: left;
+}
+
+.alpha {
+    list-style-type: upper-alpha;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.contacts-alpha {
+    list-style-type: none;
 }
 
 .map {
     border: 5px solid gray;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 100px;
 }
 
 .contact-us {
     border: 3px solid cyan;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .wrapper {
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 .address, .message {
-    display: inline-block;
+    width: 359px;
     border: 5px solid navajowhite;
     background-color: cornflowerblue;
     margin: 10px;
+}
+
+.rights {
+    border: 3px solid plum;
+    margin-bottom: 30px;
 }
