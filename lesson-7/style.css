@@ -283,19 +283,19 @@ body {
 }
 
 .footer__list:first-child::before {
-    content: '1.';
+    content: "1.";
     display: block;
     margin-right: 16px;
 }
 
 .footer__list:nth-child(2)::before {
-    content: '2.';
+    content: "2.";
     display: block;
     margin-right: 16px;
 }
 
 .footer__list:nth-child(3)::before {
-    content: '3.';
+    content: "3.";
     display: block;
     margin-right: 16px;
 }
@@ -321,7 +321,6 @@ hr {
     margin-bottom: 112px;
     margin-top: 96px;
     width: 100%;
-
 }
 
 .contact-text {
@@ -603,3 +602,5 @@ hr {
         padding-bottom: 32px;
     }
 }
+
+/*# sourceMappingURL=style.css.map */
