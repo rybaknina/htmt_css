@@ -3,12 +3,19 @@ body {
 }
 
 .input {
+  margin-right: 56px;
+  width: 90%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  padding: 21px;
   background: #FFFFFF;
   box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
+  opacity: 0.6;
 }
 
 .submit {
+  padding: 23px;
   text-align: center;
   border-radius: 10px;
   font-weight: 500;
@@ -109,6 +116,8 @@ body {
 }
 
 .contacts_top__info {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
   background-image: url(img/contact-us.png);
   background-repeat: no-repeat;
@@ -338,7 +347,7 @@ hr {
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 96px;
   margin-top: 57px;
 }
@@ -359,9 +368,16 @@ hr {
   box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
   padding-left: 56px;
+  padding-right: 56px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+}
+
+.action-class {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .address_heading {
@@ -376,10 +392,15 @@ hr {
 
 .message__text {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 30px;
   letter-spacing: 0.04em;
   color: #1F3F68;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+
+#placeholder {
+  color: #1F3F68;
+  opacity: 0.2;
 }
 
 .icon {
